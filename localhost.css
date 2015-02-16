@@ -1,0 +1,35 @@
+/* Custom CSS */
+
+body {
+	background-color: #303030;
+	color: #ffffff;
+	padding-top: 80px;
+}
+
+a.thumbnail {
+	background: none;
+	text-align: center;
+	border: none;
+	text-decoration: none;
+	padding: 10px 0;
+}
+
+a.thumbnail span {
+	font-size: 4em;
+	color: #777777;
+	margin-bottom: 20px;
+}
+
+a.thumbnail .caption {
+	padding: 0;
+	color: #cccccc;
+	font-size: .9em;
+	margin-bottom: 10px;
+}
+
+.white span { color: #ffffff; }
+
+a.thumbnail span.brown { color: #BF8F36; } 
+a.thumbnail span.white { color: #F2ECCE; } 
+
+a.thumbnail:hover { background: #222222; }
